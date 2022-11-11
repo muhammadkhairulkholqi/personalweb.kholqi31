@@ -1,0 +1,375 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.menu {
+    background-image: url(scandinavian-living-room-with-green-armchair-empty-white-wall-background_41470-4921.webp);
+    background-size: 100%;
+    background-position: bottom;
+    padding-bottom: 1cm;
+}
+
+.judul img {
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 100px;
+    margin-left: 8cm;
+    box-shadow: 1px 1px 15px;
+}
+
+.judul h1 {
+    font-family: 'Iwona Cond Heavy', sans-serif;
+    margin-top: 1cm;
+    color: black;
+}
+
+.pertama ul li a {
+    float: left;
+    font-size: 20px;
+    list-style-type: none;
+    margin-top: 20px;
+    margin-left: 2cm;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background: #3A8891;
+    padding: 7px;
+    border-radius: 7px;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 1px 1px 10px #000000;    
+}
+
+.navbar li {
+    float: right;
+    list-style-type: none;
+    margin-right: 2cm;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar a:hover {
+    color: #8267BE;
+}
+
+.pertama ul li a:hover {
+    background: #8267BE;
+}
+
+.judul p {
+    margin-top: 15px;
+    font-family: 'The Brands', sans-serif;
+}
+
+.kedua h1 {
+    margin-top: 1cm;
+    font-family: 'Iwona Heavy', sans-serif;
+}
+
+hr {
+    width: 190px;
+    margin: auto;
+    margin-top: 3px;
+}
+
+img { 
+    max-width: 100%;
+    max-height: 200px;
+  }
+  
+  .gallery {
+    display: flex;
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+  
+  .images1 {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  figure { margin: 0; }
+  figcaption { text-align: center; }
+  
+  figcaption span {
+    display: block;
+    color: #333333;
+    font-size: 15px;
+  }
+
+.images1 img {
+    margin-left: 4cm;
+    border-radius: 50%;
+    width: 200px;
+    box-shadow: 1px 1px 10px #000000;   
+  }
+
+.images1 {
+    margin-left: 4cm;
+    margin-top: 2cm;
+    margin-right: 1cm;
+}
+
+.name1  {
+    margin-top: 30px;
+}
+
+.images2 img {
+    margin-top: 2cm;
+    margin-left: 1cm;
+    border-radius: 60%;
+    box-shadow: 1px 1px 10px #000000;
+}
+
+
+.name2 {
+    margin-top: 30px;
+}
+
+.section h1 {
+    margin-top: 1cm;
+}
+
+.section h1 {
+    font-family: 'Iwona Cond Medium', sans-serif;
+}
+
+.gallery h5 {
+    font-family: 'Iwona Cond', sans-serif;
+}
+
+.bawah p {
+    margin-top: 1cm;
+    font-family: 'Iwona Cond', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.images1 #zoom-in img {
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+}
+
+.images1 #zoom-in:hover img {
+    transform: scale(1.2);
+}
+
+.images2 #zoom-in img {
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+}
+
+.images2 #zoom-in:hover img {
+    transform: scale(1.2);
+}
+
+.judul-2 {
+    margin-top: 2cm;
+    font-family: 'Iwona Cond Medium', sans-serif;
+}
+
+.wrapper-5 img {
+    width: 100px;
+    display: flex;
+}
+
+.ket-1 {
+    display: flex;
+    margin-left: 9cm;
+    margin-top: 1cm;
+}
+
+.pembungkus-3 {
+    margin-left: 4cm;
+}
+
+.pembungkus-1 {
+    margin-right: 4cm;
+}
+
+.pembungkus-1 h4 {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.pembungkus-2 h4 {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.pembungkus-3 h4 {
+    margin-top: 10px;
+}
+
+.pembungkus-1  #zoom-in img {
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+}
+
+.pembungkus-1 #zoom-in:hover img {
+    transform: scale(1.2);
+}
+
+.pembungkus-2  #zoom-in img {
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+}
+
+.pembungkus-2 #zoom-in:hover img {
+    transform: scale(1.2);
+}
+
+
+.pembungkus-3  #zoom-in img {
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+}
+
+.pembungkus-3 #zoom-in:hover img {
+    transform: scale(1.2);
+}
+
+.folio-1 h1 {
+    margin-top: 3cm;
+}
+
+.fotoweb img {
+    margin-top: 1cm;
+    width: 600px;
+    border: 2px solid #000000;
+}
+
+.portofolio-1 h3 {
+    margin-top: 1cm;
+}
+
+.terakhir h3 {
+    margin-top: 1cm;
+    background-color: #3A8891;
+    width: 4cm;
+    height: 30px;
+    border-radius: 6px;
+    color: white;
+    box-shadow: 1px 1px 10px #000000; 
+} 
+
+.terakhir h3:hover {
+    background-color: #8267BE;
+}
+
+.copy h3 {
+    margin-top: 2cm;
+}
+
+.kembali ul li {
+    list-style-type: none;
+}
+
+.kembali { 
+    float: right;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.kembali ul li h1 a {
+    color: black;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+@media screen and (max-width: 360px) {
+    .menu {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .judul img {
+        margin: auto;
+        margin-top: 1cm;
+    }
+ 
+    .gallery img {
+        margin-left: -2cm;
+        width: 100px;
+
+    }
+
+    .images1 h5 {
+        margin-left: -4cm;
+        font-size: 9px;
+        padding: 70;
+        margin-top: -1cm;
+    }
+
+    .images2 img {
+        width: 400px;
+    }
+
+    .images2 h5 {
+        font-size: 10px;
+        margin-left: -4cm;
+        padding: 40;
+    }
+
+
+    .pembungkus-1{
+        margin-left: -320px;
+    }
+
+    .pembungkus-2 {
+        margin-left: -110px;
+    }
+
+    .pembungkus-1 img {
+        width: 60;
+    }
+
+    .pembungkus-1 h4 {
+        margin-left: -10;
+    }
+
+    .pembungkus-2 img {
+        width: 60;
+    }
+
+    .pembungkus-2 h4 {
+        margin-left: -6px;
+    }
+
+    .fotoweb img {
+        width: 310;
+    }
+
+    .pembungkus-3 {
+        margin-left: -10;
+    }
+
+    .pembungkus-3 img {
+        width: 70;
+        margin-left: 50;
+    }
+
+    .kata h4 {
+        margin-left: 1cm;
+        margin-top: 2px;
+    }
+
+    .bawah p {
+        font-size: 10;
+    }
+}
+ 
+
+
